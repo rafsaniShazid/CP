@@ -4,7 +4,7 @@ typedef long long ll;
 using namespace std;
 
 #define MAXN 1e6+1
-vector<int> spf(MAXN,1);
+vector<int> spf(MAXN,1); // spf means smallest possible factor
 
 void seive(int n){
     for(int i=2;i<=n;i++){
