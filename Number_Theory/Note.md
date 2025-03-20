@@ -1,30 +1,32 @@
-<h1>1. Some properties of LCM</h1>
-    <h1>1765M - Minimum LCM</h1>
+# 1765M - Minimum LCM
 
-    <p>Suppose <code>a ≤ b</code>.</p>
+Suppose **a ≤ b**.
 
-    <h2>Understanding the Optimal Solution</h2>
+## Understanding the Optimal Solution
 
-    <p>Let's show that if <code>b mod a ≠ 0</code>, the answer is suboptimal.</p>
+Let's show that if **b mod a ≠ 0**, the answer is suboptimal.
 
-    <p>If <code>b mod a = 0</code>, then:</p>
-    <p><strong>LCM(a, b) = b</strong></p>
-    <p>So, the answer is less than <code>n</code>.</p>
+If **b mod a = 0**, then:
 
-    <p>However, if <code>b mod a ≠ 0</code>, then:</p>
-    <p><strong>LCM(a, b) ≥ 2b</strong></p>
-    <p>Since <code>b</code> is at least <code>n/2</code>, the answer is at least <code>n</code>.</p>
+**LCM(a, b) = b**
 
-    <h2>Finding the Optimal Solution</h2>
+So, the answer is less than **n**.
 
-    <p>Now, we know that in the optimal answer, <code>b mod a = 0</code>. This also means that:</p>
-    <p><strong>n mod a = 0</strong></p>
-    <p>Since <code>n = a + b</code>, we only need to search for <code>a</code> among the divisors of <code>n</code>.</p>
+However, if **b mod a ≠ 0**, then:
 
-    <h2>Time Complexity</h2>
+**LCM(a, b) ≥ 2b**
 
-    <p>We can iterate through all divisors of <code>n</code> in <code>O(√n)</code> time.</p>
+Since **b** is at least **n/2**, the answer is at least **n**.
 
+## Finding the Optimal Solution
 
+Now, we know that in the optimal answer, **b mod a = 0**.  
+This also means that:
 
+**n mod a = 0**
 
+Since **n = a + b**, we only need to search for **a** among the divisors of **n**.
+
+## Time Complexity
+
+We can iterate through all divisors of **n** in **O(√n)** time.
