@@ -3,6 +3,7 @@
 1. [LCM](#1765m---minimum-lcm)
 
 # 1765M - Minimum LCM
+[See problem](https://codeforces.com/contest/1765/problem/M)
 
 Suppose a ≤ b. Let's show that if b mod a ≠ 0, the answer is suboptimal.
 
