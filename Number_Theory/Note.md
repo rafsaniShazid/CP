@@ -1,15 +1,15 @@
+
+## Table of contents
+1. [LCM](#1765m---minimum-lcm)
+
 # 1765M - Minimum LCM
 
-## Table of Contents
-1. [Understanding the Optimal Solution](#understanding-the-optimal-solution)
-2. [Finding the Optimal Solution](#finding-the-optimal-solution)
-3. [Time Complexity](#time-complexity)
+Suppose a ≤ b. Let's show that if b mod a ≠ 0, the answer is suboptimal.
 
-## Understanding the Optimal Solution
-Let's show that if **b mod a ≠ 0**, the answer is suboptimal.
+- If b mod a = 0, then LCM(a, b) = b, so the answer is less than n.
+- But if b mod a ≠ 0, then LCM(a, b) is at least 2b, and b is at least n/2, so in this case, the answer is at least n.
 
-## Finding the Optimal Solution
-Now, we know that in the optimal answer, **b mod a = 0**.
+Now, we know that in the optimal answer, b mod a = 0. This also means that n mod a = 0, since n = a + b.
 
-## Time Complexity
-We can iterate through all divisors of **n** in **O(√n)** time.
+Thus, we need to search for a only among the divisors of n, and it is possible to iterate through all of them in O(√n).
+
