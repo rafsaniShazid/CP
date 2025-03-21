@@ -1,1 +1,1 @@
-This repo contains some topics of competetive programming.
+This repo contains some topics of competitive programming.
