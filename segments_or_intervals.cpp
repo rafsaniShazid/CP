@@ -1,3 +1,5 @@
+// This method is helpful if you need to find overlapping range
+// between adjacent segments
     int n,x;cin>>n>>x;
     vi arr(n);
 
