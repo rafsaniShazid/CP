@@ -9,7 +9,7 @@
 
     forr(i,1,n){
         vi cur={arr[i]-x,arr[i]+x};
-        vi overlap={max(prev[0],cur[0]), // overlap = max(l1,l2)->max(r1,r2)
+        vi overlap={max(prev[0],cur[0]), // overlap = max(l1,l2)->min(r1,r2)
             min(prev[1],cur[1])}; 
         if(overlap[0]<=overlap[1]){ // overlaps if (l<=r)
             prev=overlap;
