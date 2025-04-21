@@ -14,3 +14,5 @@ Now, we know that in the optimal answer, b mod a = 0. This also means that n mod
 
 Thus, we need to search for a only among the divisors of n, and it is possible to iterate through all of them in O(√n).
 
+# Maximum divisors of n apprximately n^(1/3)
+  
