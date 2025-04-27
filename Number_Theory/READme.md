@@ -17,7 +17,7 @@ Thus, we need to search for a only among the divisors of n, and it is possible t
 ## Maximum divisors of n approximately n^(1/3)
 ## Bitmasks- Checking any undesired bit is set or not
     Suppose targeted integer is x=10 ie. 1010
-    so after doing or operation of n bits we must make sure 
+    so after doing OR operation of n bits we must make sure 
     0th and 2th bit is not set. So we do this (arr[i]|x)==x.
     1. If false, then we can't perform bitwise OR with that element.
        That will eventually set the undesired bits 
