@@ -15,4 +15,8 @@ Now, we know that in the optimal answer, b mod a = 0. This also means that n mod
 Thus, we need to search for a only among the divisors of n, and it is possible to iterate through all of them in O(√n).
 
 ## Maximum divisors of n approximately n^(1/3)
-  
+## Bitmasks- Checking any undesired bit is set or not
+    suppose target integer is x=10 ie. 1010
+    so after doing or operation of n bits we must make sure 
+    0th and 2th bit is not set. So we do this (arr[i]|x)==x.<br>
+    
