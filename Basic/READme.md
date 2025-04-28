@@ -1,6 +1,6 @@
 ## Calculating Median
         forr(i,0,n){
-        if(abs(i-(n-1-i))<=(k+1)){
+        if(abs(i-(n-1-i))<=1){
             mini=min(mini,arr[i]); // here calculating the medians in a sorted array 
             mx=max(mx,arr[i]);     // including the integers between them 
         }
