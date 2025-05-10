@@ -21,4 +21,7 @@ Thus, we need to search for a only among the divisors of n, and it is possible t
     0th and 2th bit is not set. So we do this (arr[i]|x)==x.
     1. If false, then we can't perform bitwise OR with that element.
        That will eventually set the undesired bits 
-    
+## Properties of gcd
+1. gcd(a,b)<= min(a,b)
+2. gcd(a,a) = a
+3. gcd(a,0) = a;
