@@ -25,3 +25,7 @@ Thus, we need to search for a only among the divisors of n, and it is possible t
 1. gcd(a,b)<= min(a,b)
 2. gcd(a,a) = a
 3. gcd(a,0) = a;
+## MOD property 
+1. a<sub>i</sub> mod 2<sup>j</sup>
+ corresponds to the last j
+ digits in the binary representation of a<sub>i</sub>
