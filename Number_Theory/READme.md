@@ -29,3 +29,5 @@ Thus, we need to search for a only among the divisors of n, and it is possible t
 1. a<sub>i</sub> mod 2<sup>j</sup>
  corresponds to the last j
  digits in the binary representation of a<sub>i</sub>
+## Properties of parity
+1. Any even number >2 is a composite number.
