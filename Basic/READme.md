@@ -14,8 +14,10 @@ then the median elements will be the a<sub>i</sub> for which |p-q|<=1.<br>
 so we can simply run a loop where, <br>
 p = i and q = n-1-i. So the equation would be, |i-(n-1-i)|<=1.<br>
 [Check this problem](https://codeforces.com/contest/2098/problem/B) & [Solution](https://codeforces.com/contest/2098/submission/317510948)  
-## the minimum multiple of i that is strictly bigger than l−1            
+## the minimum multiple of i that is strictly bigger than l−1   
+```cpp
     ll a= ((l-1)/i+1)*i;
+```
 ## ⚡ Modular Exponentiation
 
 Use this when you need to perform large exponentiation like `2^1e5 % mod` or cases where `1 << 1e5` would overflow.
