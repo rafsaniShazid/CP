@@ -1,4 +1,4 @@
-## 📊 Calculating Median in a Sorted Array
+## 1 📊 Calculating Median in a Sorted Array
 
 ```cpp
 forr(i, 0, n) {
@@ -18,7 +18,7 @@ p = i and q = n-1-i. So the equation would be, |i-(n-1-i)|<=1.<br>
 ```cpp
     ll a= ((l-1)/i+1)*i;
 ```
-## ⚡ Modular Exponentiation
+## 2 ⚡ Modular Exponentiation
 
 Use this when you need to perform large exponentiation like `2^1e5 % mod` or cases where `1 << 1e5` would overflow.
 
@@ -35,4 +35,21 @@ ll power(ll base, ll exp, ll mod) {
     }
     return res;
 }
+```
+## 3 Taking decisions for min and max of two pointers
+```cpp
+forr(i,0,n){
+        if(i&1){
+            takeleft= arr[l]<arr[r];
+        }
+        else takeleft= arr[l]>arr[r];
 
+        if(takeleft){
+            cout<<"L"; l++;
+        }
+        else {
+            cout<<"R"; r--;
+        }
+    }
+//https://codeforces.com/contest/2128/problem/B
+```
