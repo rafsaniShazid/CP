@@ -31,3 +31,18 @@ Thus, we need to search for a only among the divisors of n, and it is possible t
  digits in the binary representation of a<sub>i</sub>
 ## Properties of parity
 1. Any even number >2 is a composite number.
+## Periodicity 
+A number is **good** if it is **not divisible by 2, 3, 5, or 7**.  
+This implies:
+
+- To decide whether a number is good, it is enough to know its **remainders modulo 2, 3, 5, and 7**.  
+- By the **Chinese Remainder Theorem**, this is equivalent to knowing its remainder modulo:
+
+$L = 2 \cdot 3 \cdot 5 \cdot 7 = 210$
+
+
+- Therefore, if \(x\) is good, then \(x + L\) is also good, and vice versa.  
+
+In other words, the pattern of good/bad numbers is **periodic with period 210**.
+
+Read the solution of this [Problem](https://codeforces.com/problemset/problem/2125/C) & [Solution](https://codeforces.com/contest/2125/submission/335072733)
