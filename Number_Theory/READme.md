@@ -29,6 +29,11 @@ Thus, we need to search for a only among the divisors of n, and it is possible t
 1. a<sub>i</sub> mod 2<sup>j</sup>
  corresponds to the last j
  digits in the binary representation of a<sub>i</sub>
+
+For $a \equiv b \pmod{n}$ , we can say,
+1. a and b have the same remainders when they are divided by n.
+2. $a = k.n + b$
+3. $n|(a-b)$ 
 ## Properties of parity
 1. Any even number >2 is a composite number.
 ## Periodicity 
