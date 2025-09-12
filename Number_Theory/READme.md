@@ -52,5 +52,5 @@ In other words, the pattern of good/bad numbers is **periodic with period 210**.
 
 Read the solution of this [Problem](https://codeforces.com/problemset/problem/2125/C) & [Solution](https://codeforces.com/contest/2125/submission/335072733)
 ## Divisibility Property
-x | y if and only if the x | sum of digits of y
+x | y if and only if the x | sum of digits of y <br>
 for example 3 divides 10101 because sum of 1+0+1+0+1=3 , which is divided by 3
