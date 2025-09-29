@@ -53,3 +53,14 @@ forr(i,0,n){
     }
 //https://codeforces.com/contest/2128/problem/B
 ```
+## 4. Calculating longest subarray sum using variable sliding window
+```cpp
+for (int R = 0; R < n; R++) {
+        cur += a[R];
+        while (cur > need && L <= R) {
+            cur -= a[L++];
+        }
+        if (cur == need) best = max(best, R - L + 1);
+    }
+```
+This returns the length of longest subarray
