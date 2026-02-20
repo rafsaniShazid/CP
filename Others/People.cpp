@@ -50,3 +50,12 @@ int main(){
         cout<<"Income: "<<d[i].income<<" BDT"<<endl<<endl;
     }
 }
+/*
+This code helps to sort out people based on their salary,height,weight and name of the length. The priority is given below
+
+Salary (as much as possible)
+Height (as much as possible)
+weight (as less as possible)
+Lenght (as less as possible)
+
+*/
